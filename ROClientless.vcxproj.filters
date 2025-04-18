@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="network\login.cpp" />
+    <ClCompile Include="network\char.cpp" />
+    <ClCompile Include="network\map.cpp" />
+    <ClCompile Include="shared\logger.h" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="network\char.h" />
+    <ClInclude Include="network\login.h" />
+    <ClInclude Include="network\map.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="shared\types.h" />
+    <ClInclude Include="shared\packets.h" />
+  </ItemGroup>
+</Project>
